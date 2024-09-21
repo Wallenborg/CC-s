@@ -1,0 +1,32 @@
+.page-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  min-width: 300px;
+  background-color: var(--clr-bg-2);
+  color: var(--clr-text);
+  border: 1px solid var(--clr-border);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.page-tile {
+  align-self: center;
+}
+
+.page-link-box {
+  margin-top: auto;
+  display: flex;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+.page-link {
+  border: solid 1px var(--clr-border);
+  background-color: var(--clr-accent-2);
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: var(--clr-text-2);
+  font-family: monospace;
+}
