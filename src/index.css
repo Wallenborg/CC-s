@@ -1,0 +1,44 @@
+/* css Resetting */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: var(--clr-bg-1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  margin: 0;
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+:root {
+  --clr-accent-1: #696969;
+  --clr-accent-2: #808080;
+  --clr-border: #a9a9a9;
+  --clr-bg-2: #f0f0f0;
+  --clr-text: #2e2e2e;
+  --clr-bg-1: #d3d3d3;
+}

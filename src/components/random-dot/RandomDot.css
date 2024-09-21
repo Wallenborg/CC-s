@@ -1,0 +1,8 @@
+.dot {
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  background-color: var(--clr-text);
+  border-radius: 50%;
+  border: 0.5px solid var(--clr-bg-1);
+}
