@@ -6,6 +6,19 @@
   padding: 0 5px;
 }
 
+.link-title-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkedin {
+  margin-top: 3px;
+  font-size: 2.5rem;
+  color: var(--clr-text);
+  align-self: center;
+  justify-self: center;
+}
+
 .title {
   font-size: 5rem;
   font-family: "Poppins", sans-serif;
