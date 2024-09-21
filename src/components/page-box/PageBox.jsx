@@ -13,7 +13,7 @@ export default function PageBox({ post }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          SITE
+          CODE
         </a>
         <a
           className="page-link"
@@ -21,7 +21,7 @@ export default function PageBox({ post }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          CODE
+          SITE
         </a>
       </div>
     </div>
