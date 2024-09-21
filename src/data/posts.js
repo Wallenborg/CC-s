@@ -8,9 +8,35 @@ const posts = [
     liveLink: "https://a-line-is-never-alone.netlify.app/",
     codeLink: "https://github.com/Wallenborg/line-art",
   },
-
   {
     id: 2,
+    title: '"Digital Eclipse - A Year on the Web"',
+    content:
+      "The website features a dynamic background color that transitions from white to black over the course of 365 days from its creation date. It dynamically updates the background color of the webpage based on the number of days remaining. Each day, the background color becomes slightly darker, gradually transitioning to black over the course of the year. After 365 days have passed, the countdown resets, and the background color transition begins again, ensuring that the website continuously cycles through the white-to-black transition every 366 days. The idea is to have a year-long experience within an online digital space. Start date 2024-03-28",
+    image: "/img/theday.png",
+    liveLink: "https://a-year.netlify.app/",
+    codeLink: "https://github.com/Wallenborg/Ayear",
+  },
+  {
+    id: 3,
+    title: '"you love i"',
+    content: "Made this small project a random text placement, I LOVE YOU : )",
+    image: "/img/theiloveyou.png",
+    liveLink: "https://youlovei.netlify.app/",
+    codeLink: "https://github.com/Wallenborg/I-love-you",
+  },
+  {
+    id: 4,
+    title: '"Snow Crash"',
+    content:
+      "When the computer crashed and wrote gibberish into the bitmap, the result was something that looked vaguely like static on a broken television set— a snow crash. This JavaScript code dynamically creates a grid of colored boxes within an HTML container. It initializes by generating the boxes once and then updates them continuously. Each box is styled with a random background color selected from a predefined array of colors. The size of the grid adjusts based on the dimensions of the browser window.",
+    image: "/img/thesnow.png",
+    liveLink: "https://snow-crash.netlify.app/",
+    codeLink: "",
+  },
+
+  {
+    id: 5,
     title: '"The Blob Generator"',
     content:
       "On loading the page, an initial blob is drawn. When the user clicks the New Blob button, the canvas is cleared, and new blobs with varying sizes, positions, and colors are generated (Canvas and JavaScript).",

@@ -4,11 +4,14 @@
   gap: 10px;
   max-width: 300px;
   min-width: 300px;
+  height: 420px;
+  overflow: scroll;
   background-color: var(--clr-bg-2);
   color: var(--clr-text);
   border: 1px solid var(--clr-border);
   border-radius: 10px;
   padding: 5px 10px;
+  margin-bottom: 50px;
 }
 
 .page-title {
