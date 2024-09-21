@@ -11,8 +11,21 @@
   padding: 5px 10px;
 }
 
-.page-tile {
+.page-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
   align-self: center;
+}
+
+.title-content {
+  font-size: 0.8;
+  font-weight: 500;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.page-content {
+  font-size: 0.7;
+  font-family: "Rajdhani", sans-serif;
 }
 
 .page-link-box {

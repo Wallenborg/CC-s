@@ -26,7 +26,7 @@ export default function PageList() {
 
   return (
     <div className="wrapper">
-      <h2>Sundays past...</h2>
+      <h2 className="page-title">Sundays past...</h2>
       <div className="page-list-box">
         {shuffledPosts.map((post) => (
           <PageBox key={post.id} post={post} />

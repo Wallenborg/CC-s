@@ -1,7 +1,12 @@
-.wrapper {
-  padding-left: 10px;
+/* .wrapper {
+  
+} */
+.page-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
-
 .page-list-box {
   display: flex;
   gap: 10px;
