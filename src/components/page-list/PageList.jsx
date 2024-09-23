@@ -50,7 +50,7 @@
 
 import { useState } from "react";
 import PageBox from "../page-box/PageBox";
-import posts from "../../data/Posts";
+import posts from "../../data/posts";
 import "./PageList.css";
 
 // Fisher-Yates algorithm for shuffling an array randomly
