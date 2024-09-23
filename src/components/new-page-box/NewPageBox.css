@@ -1,6 +1,7 @@
 .new-page-box {
   width: 100%;
   display: flex;
+  max-width: 1000px;
   flex-direction: column;
   padding: 10px 10px 0px 10px;
   gap: 10px;
@@ -23,8 +24,10 @@
 }
 
 .new-page-content {
+  max-width: 800px;
   color: var(--clr-text-2);
   font-size: 0.7;
+  align-self: center;
   font-family: "Rajdhani", sans-serif;
 }
 .new-page-link-box {
