@@ -3,10 +3,12 @@ import "./PageBox.css";
 export default function PageBox({ post }) {
   return (
     <div className="page-box">
-      <h2 className="page-title">{post.title}</h2>
+      <h2 className="page--sub-title">{post.title}</h2>
       <img src={post.image} alt={post.title} className="blog-image" />
       <p className="title-content">How it works:</p>
-      <p className="page-content">{post.content}</p>
+      <div className="text-box">
+        <p className="page-content">{post.content}</p>
+      </div>
       <div className="page-link-box">
         <a
           className="page-link"
