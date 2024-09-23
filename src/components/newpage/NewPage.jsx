@@ -1,5 +1,5 @@
 import PageBox from "../page-box/PageBox";
-import posts from "../../data/posts";
+import posts from "../../data/Posts";
 import "./NewPage.css";
 
 export default function NewPage() {

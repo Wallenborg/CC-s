@@ -34,9 +34,18 @@ const posts = [
     liveLink: "https://snow-crash.netlify.app/",
     codeLink: "",
   },
-
   {
     id: 5,
+    title: '"What were the skies like when you were young?"',
+    content:
+      "The code generates and semi-transparent circles that move randomly within the screen. Each circle starts from the center of the previous circle’s position.",
+    image: "/img/thesky.png",
+    liveLink: "https://what-were-the-skies-like.netlify.app/",
+    codeLink: "",
+  },
+
+  {
+    id: 6,
     title: '"The Blob Generator"',
     content:
       "On loading the page, an initial blob is drawn. When the user clicks the New Blob button, the canvas is cleared, and new blobs with varying sizes, positions, and colors are generated (Canvas and JavaScript).",
