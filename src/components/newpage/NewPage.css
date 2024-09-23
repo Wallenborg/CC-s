@@ -9,6 +9,6 @@
   height: auto;
   padding: 10px 0;
   border-bottom: 2px solid var(--clr-border);
-  background-color: var(--clr-accent-2);
+  background-color: var(--clr-text);
   border-radius: 10px;
 }

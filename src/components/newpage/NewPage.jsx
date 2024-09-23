@@ -1,6 +1,7 @@
 import PageBox from "../page-box/PageBox";
 import posts from "../../data/posts";
 import "./NewPage.css";
+import NewPageBox from "../new-page-box/NewPageBox";
 
 export default function NewPage() {
   // find post with highest id
@@ -12,7 +13,7 @@ export default function NewPage() {
     <div className="wrapper">
       <h2 className="page-title">This Sundays Post:</h2>
       <div className="newest-page-box">
-        <PageBox key={latestPost.id} post={latestPost} />
+        <NewPageBox key={latestPost.id} post={latestPost} />
       </div>
     </div>
   );

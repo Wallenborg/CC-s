@@ -1,0 +1,44 @@
+.new-page-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 0px 10px;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.new-blog-image {
+  width: 800px;
+  align-self: center;
+  border: 0.5px solid var(--clr-text-2);
+  border-radius: 10px;
+}
+
+.new-page-title {
+  color: var(--clr-text-2);
+  align-self: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  align-self: center;
+}
+
+.new-page-content {
+  color: var(--clr-text-2);
+  font-size: 0.7;
+  font-family: "Rajdhani", sans-serif;
+}
+.new-page-link-box {
+  margin-top: auto;
+  display: flex;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+.new-page-link {
+  border: solid 1px var(--clr-border);
+  background-color: var(--clr-accent-2);
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: var(--clr-text-2);
+  font-family: monospace;
+}
