@@ -1,4 +1,5 @@
 import "./App.css";
+import Divider from "./components/divider/Divider";
 import Header from "./components/header/Header";
 import Info from "./components/info/Info";
 import NewPage from "./components/newpage/NewPage";
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Info />
       <NewPage />
+      <Divider />
       <PageList />
     </>
   );
