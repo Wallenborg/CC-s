@@ -15,7 +15,7 @@ export default function NewPageBox({ post }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Visit Site
+          SITE
         </a>
         <a
           className="new-page-link"
@@ -23,7 +23,7 @@ export default function NewPageBox({ post }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          View Code
+          CODE
         </a>
       </div>
     </div>
