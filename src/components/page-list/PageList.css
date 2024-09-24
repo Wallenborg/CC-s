@@ -14,3 +14,13 @@
   justify-content: center;
   margin-bottom: 50px;
 }
+
+.load-more {
+  border: solid 1px var(--clr-border);
+  background-color: var(--clr-accent-2);
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: var(--clr-text-2);
+  font-family: monospace;
+  cursor: pointer;
+}
