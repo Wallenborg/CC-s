@@ -53,6 +53,15 @@ const posts = [
     liveLink: "https://the-blob-generator.netlify.app/",
     codeLink: "https://github.com/Wallenborg/the-blob",
   },
+  {
+    id: 7,
+    title: '"Neam Chimpsk - Sentence Generator "',
+    content:
+      "On loading the page, an initial blob is drawn. When the user clicks the New Blob button, the canvas is cleared, and new blobs with varying sizes, positions, and colors are generated (Canvas and JavaScript).",
+    image: "/img/theneam.png",
+    liveLink: "https://me-give-orange.netlify.app/",
+    codeLink: "https://github.com/Wallenborg/neam",
+  },
 ];
 
 export default posts;
