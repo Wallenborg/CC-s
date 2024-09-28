@@ -7,8 +7,13 @@ export default function PageList() {
   // State to track how many posts are currently visible, starting with 4
   const [visibleCount, setVisibleCount] = useState(4);
 
-  // Sort posts in ascending order based on their id (assuming lower id is older post)
-  const sortedPosts = [...posts].sort((a, b) => a.id - b.id);
+  // Get the post with the highest id
+  const maxId = Math.max(...posts.map((post) => post.id));
+
+  // Filter out the post with the highest id and sort the remaining posts in descending order
+  const sortedPosts = [...posts]
+    .filter((post) => post.id !== maxId) // Exclude the post with the highest id
+    .sort((a, b) => b.id - a.id); // Sort in descending order (latest posts first)
 
   // Handle loading more posts
   const loadMore = () => {
