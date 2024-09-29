@@ -56,7 +56,8 @@ const posts = [
   {
     id: 7,
     title: '"Neam Chimpsky - Sentence Generator "',
-    content: "",
+    content:
+      "This build started with thoughts on AI language models, leading to primate language experiments and the idea that 1,000 monkeys with 1,000 laptops could write a Shakespearean text. It explores randomness, communication, and creativity. Using JavaScript, it displays random words from Nim Chimpsky's vocabulary on scroll, with the number of words chosen based on a probability array.",
     image: "/img/theneam.png",
     liveLink: "https://me-give-orange.netlify.app/",
     codeLink: "https://github.com/Wallenborg/neam",
