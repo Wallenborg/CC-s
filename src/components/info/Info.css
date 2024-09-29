@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   width: 100vw;
-  height: 80vh;
+  height: 80dvh;
   padding-top: 100px;
   align-items: flex-start;
   justify-content: center;
@@ -12,7 +12,7 @@
 
 .arrow {
   position: fixed;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--clr-text-2);
