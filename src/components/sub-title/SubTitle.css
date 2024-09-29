@@ -1,5 +1,6 @@
 .sub-title {
+  margin-top: 10px;
   color: var(--clr-bg-1);
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-family: "Poppins", sans-serif;
 }

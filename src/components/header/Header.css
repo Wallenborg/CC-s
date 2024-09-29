@@ -1,18 +1,18 @@
 .header-box {
   position: relative;
   width: 100%;
-  height: 120px;
+  height: 220px;
   border-bottom: 2px solid var(--clr-border);
   padding: 10px 5px 0px 5px;
 }
 
 .link-title-box {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .header-link {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: var(--clr-text);
   display: flex;
   align-items: center;
@@ -20,17 +20,15 @@
 }
 
 .title {
-  font-size: 5rem;
+  font-size: 7rem;
   font-family: "Poppins", sans-serif;
   line-height: 0.9;
   color: var(--clr-text);
 }
 
 .link-box-header {
+  margin-top: 20px;
   padding: 2px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 2px;
-  grid-row-gap: 2px;
+  display: flex;
+  justify-content: space-around;
 }

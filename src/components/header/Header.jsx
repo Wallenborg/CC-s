@@ -12,6 +12,7 @@ export default function Header() {
     <header className="header-box" ref={headerRef}>
       <div className="link-title-box">
         <h1 className="title">CC:s</h1>
+        <SubTitle />
         <div className="link-box-header">
           <a
             className="header-link"
@@ -47,7 +48,6 @@ export default function Header() {
           </a>
         </div>
       </div>
-      <SubTitle />
       <RandomDot headerRef={headerRef} /> {/* Send ref as a prop */}
     </header>
   );
