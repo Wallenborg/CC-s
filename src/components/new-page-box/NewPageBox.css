@@ -6,6 +6,7 @@
   padding: 10px 10px 0px 10px;
   gap: 10px;
   justify-content: flex-start;
+  opacity: 0;
 }
 
 .new-blog-image {
