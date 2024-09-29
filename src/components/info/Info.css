@@ -3,22 +3,11 @@
   display: flex;
   width: 100vw;
   height: 80dvh;
-  padding-top: 100px;
+  padding-top: 140px;
   align-items: flex-start;
   justify-content: center;
   color: var(--clr-text);
   border-bottom: 1px solid var(--clr-border);
-}
-
-.arrow {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: var(--clr-text-2);
-  font-size: 20rem;
-  z-index: -10;
-  opacity: 0.8;
 }
 
 .info-text {
@@ -29,7 +18,7 @@
   color: var(--clr-text);
   font-family: "Rajdhani", sans-serif;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: var(--clr-text);
   opacity: 1;
 }
