@@ -4,7 +4,12 @@ export default function PageBox({ post }) {
   return (
     <div className="page-box">
       <h2 className="page--sub-title">{post.title}</h2>
-      <img src={post.image} alt={post.title} className="blog-image" />
+      <img
+        src={post.image}
+        alt={post.title}
+        className="blog-image"
+        loading="lazy"
+      />
       <p className="title-content">How it works:</p>
       <div className="text-box">
         <p className="page-content">{post.content}</p>
