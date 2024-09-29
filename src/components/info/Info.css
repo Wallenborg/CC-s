@@ -3,7 +3,8 @@
   display: flex;
   width: 100vw;
   height: 80vh;
-  align-items: center;
+  padding-top: 100px;
+  align-items: flex-start;
   justify-content: center;
   color: var(--clr-text);
   border-bottom: 1px solid var(--clr-border);
@@ -14,10 +15,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: aliceblue;
-  font-size: 10rem;
+  color: var(--clr-text-2);
+  font-size: 20rem;
   z-index: -10;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .info-text {
@@ -30,14 +31,15 @@
   text-align: center;
   font-size: 2rem;
   color: var(--clr-text);
+  opacity: 1;
 }
 
 @media (max-width: 600px) {
   .info-text {
     max-width: 340px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .arrow {
-    font-size: 7rem;
+    font-size: 15rem;
   }
 }
