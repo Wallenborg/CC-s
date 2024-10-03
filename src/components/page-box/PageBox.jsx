@@ -23,14 +23,16 @@ export default function PageBox({ post }) {
         >
           SITE
         </a>
-        <a
-          className="page-link"
-          href={post.codeLink}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          CODE
-        </a>
+        {post.codeLink && (
+          <a
+            className="page-link"
+            href={post.codeLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            CODE
+          </a>
+        )}
       </div>
     </div>
   );
