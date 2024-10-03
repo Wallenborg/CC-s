@@ -27,6 +27,15 @@ const posts = [
   },
   {
     id: 4,
+    title: '"No Love Lost in the Garden of Eden"',
+    content:
+      "The web-page unfolds as a digital landscape, resembling a garden or forest populated by early internet GIF files associated with plant life and verdant symbolism. No Love Lost in the Garden of Eden - stands as an exploration and tribute to the aesthetics of early internet culture, particularly the unsophisticated yet charming GIF animations that once proliferated online. Visitors are invited to meander through this digital terrain by simply scrolling through the webpage. The GIFs are randomly placed on the web page",
+    image: "/img/thegif.png",
+    liveLink: "https://www.niklaswallenborg.com/nolovelost.html",
+    codeLink: "",
+  },
+  {
+    id: 5,
     title: '"Snow Crash"',
     content:
       "When the computer crashed and wrote gibberish into the bitmap, the result was something that looked vaguely like static on a broken television set— a snow crash. This JavaScript code dynamically creates a grid of colored boxes within an HTML container. It initializes by generating the boxes once and then updates them continuously. Each box is styled with a random background color selected from a predefined array of colors. The size of the grid adjusts based on the dimensions of the browser window.",
@@ -35,7 +44,7 @@ const posts = [
     codeLink: "",
   },
   {
-    id: 5,
+    id: 6,
     title: '"What were the skies like when you were young?"',
     content:
       "The code generates and semi-transparent circles that move randomly within the screen. Each circle starts from the center of the previous circle’s position.",
@@ -45,7 +54,7 @@ const posts = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: '"The Blob Generator"',
     content:
       "On loading the page, an initial blob is drawn. When the user clicks the New Blob button, the canvas is cleared, and new blobs with varying sizes, positions, and colors are generated (Canvas and JavaScript).",
@@ -54,7 +63,7 @@ const posts = [
     codeLink: "https://github.com/Wallenborg/the-blob",
   },
   {
-    id: 7,
+    id: 8,
     title: '"Neam Chimpsky - Sentence Generator"',
     content:
       "This build started with thoughts on AI language models, leading to primate language experiments and the idea that 1,000 monkeys with 1,000 laptops could write a Shakespearean text. It explores randomness, communication, and creativity. Using JavaScript, it displays random words from Nim Chimpsky's vocabulary on scroll, with the number of words chosen based on a probability array.",
@@ -63,7 +72,7 @@ const posts = [
     codeLink: "https://github.com/Wallenborg/neam",
   },
   {
-    id: 8,
+    id: 9,
     title: '"Abstract Pixel Art Generator"',
     content:
       "This build generates abstract pixel art. It creates a grid of cells based on screen size and applies semi-transparent colors with a 20% chance. Four colors are applied sequentially, with each layer affecting a new random set of cells, repeating until all colors are used.",
