@@ -19,12 +19,13 @@
 
 .page--sub-title {
   font-family: "Poppins", sans-serif;
-  font-size: 1.3rem;
+  text-align: center;
+  font-size: 1.2rem;
   align-self: center;
 }
 
 .title-content {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
   font-family: "Rajdhani", sans-serif;
 }
