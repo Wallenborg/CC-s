@@ -11,7 +11,7 @@ export default function NewPage() {
 
   return (
     <div className="wrapper">
-      <h2 className="new-page-title">This Sundays Post:</h2>
+      <h2 className="new-page-headtitle">This Sundays Post:</h2>
       <div className="newest-page-box">
         <NewPageBox key={latestPost.id} post={latestPost} />
       </div>
