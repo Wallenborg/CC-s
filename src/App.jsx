@@ -7,13 +7,13 @@ import PageList from "./components/page-list/PageList";
 
 function App() {
   return (
-    <>
+    <div className="wrapper">
       <Header />
       <Info />
       <NewPage />
       <Divider />
       <PageList />
-    </>
+    </div>
   );
 }
 
