@@ -80,6 +80,15 @@ const posts = [
     liveLink: "https://a-p-a-g.netlify.app/",
     codeLink: "https://github.com/Wallenborg/pixel-art-abstract",
   },
+  // {
+  //   id: 10,
+  //   title: '"Ripple Effect"',
+  //   content:
+  //     "The web is like water—always flowing, always changing, yet still remembering. This build creates ripple effects, generating expanding rings that progressively grow larger, with increasing distance between them. As the rings expand, they fade out smoothly. GSAP powers the animations, managing the size, opacity, and timing for a fluid and natural ripple effect.",
+  //   image: "/img/theripple.png",
+  //   liveLink: "https://r-e.netlify.app",
+  //   codeLink: "https://github.com/Wallenborg/ripple",
+  // },
 ];
 
 export default posts;
