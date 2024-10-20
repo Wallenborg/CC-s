@@ -89,6 +89,15 @@ const posts = [
     liveLink: "https://r-e.netlify.app",
     codeLink: "https://github.com/Wallenborg/ripple",
   },
+  {
+    id: 11,
+    title: '"Like the Matrix but Happy and Colorful"',
+    content:
+      "This project creates a colorful text animation inspired by the Matrix. Users input text, which appears as falling characters in random colors. The letters cascade down the screen at varying speeds, creating a dynamic effect. JavaScript powers the animation on a canvas, ensuring smooth and continuous motion.",
+    image: "/img/thematrix.png",
+    liveLink: "https://ltmbhac.netlify.app/",
+    codeLink: "https://github.com/Wallenborg/matrix",
+  },
 ];
 
 export default posts;
