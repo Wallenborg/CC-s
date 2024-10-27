@@ -98,6 +98,15 @@ const posts = [
     liveLink: "https://ltmbhac.netlify.app/",
     codeLink: "https://github.com/Wallenborg/matrix",
   },
+  {
+    id: 12,
+    title: '"Known Pleasures"',
+    content:
+      "This project is a deep dive into p5.js and it creates a dynamic, interactive wave pattern. Users can click or tap on the screen, causing waves to push away from the point of interaction, mimicking a ripple effect. The waves gradually return to their original positions over time, creating a smooth and organic flow.",
+    image: "/img/thep5test.png",
+    liveLink: "https://kpp5.netlify.app/",
+    codeLink: "https://github.com/Wallenborg/test-p5",
+  },
 ];
 
 export default posts;
