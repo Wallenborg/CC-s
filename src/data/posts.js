@@ -107,6 +107,15 @@ const posts = [
     liveLink: "https://kpp5.netlify.app/",
     codeLink: "https://github.com/Wallenborg/test-p5",
   },
+  {
+    id: 13,
+    title: '"Generative Bauhaus Pattern Generator"',
+    content:
+      "This application generates unique, algorithmically derived patterns inspired by Bauhaus principles. Each shape is dynamically produced through code, resulting in compositions that are both precise and unpredictable. Once initiated, a new pattern appears every 4 seconds.",
+    image: "/img/thebau.png",
+    liveLink: "https://gbpg.netlify.app/",
+    codeLink: "https://github.com/Wallenborg/Generative-Bauhaus-Pattern-Generator",
+  },
 ];
 
 export default posts;
