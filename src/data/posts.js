@@ -116,6 +116,14 @@ const posts = [
     liveLink: "https://gbpg.netlify.app/",
     codeLink: "https://github.com/Wallenborg/Generative-Bauhaus-Pattern-Generator",
   },
+  {
+    id: 13,
+    title: '"Synthetic Visions: When AI Drives Creativity"',
+    content:
+      "No Sunday project this week—I was busy hosting an open lecture and workshop at Karlstad University! The event focused on AI's role in creativity, exploring whether it amplifies human ingenuity or risks replacing it. We discussed AI's creative potential and limitations, reflecting on its impact on human creativity. Participants also learned coding basics and how to craft AI prompts, culminating in unique projects where AI made the creative decisions.",
+    image: "/img/workshop.png",
+  
+  },
 ];
 
 export default posts;

@@ -32,22 +32,28 @@ export default function NewPageBox({ post }) {
       <p className="new-page-content">{post.content}</p>
 
       <div className="new-page-link-box">
-        <a
-          className="new-page-link"
-          href={post.liveLink}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          SITE
-        </a>
-        <a
-          className="new-page-link"
-          href={post.codeLink}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          CODE
-        </a>
+      {post.liveLink && (
+  <a
+    className="new-page-link"
+    href={post.liveLink}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    SITE
+  </a>
+)}
+
+{post.codeLink && (
+  <a
+    className="new-page-link"
+    href={post.codeLink}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    CODE
+  </a>
+)}
+
       </div>
     </div>
   );
