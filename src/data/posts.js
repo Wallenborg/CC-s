@@ -117,7 +117,7 @@ const posts = [
     codeLink: "https://github.com/Wallenborg/Generative-Bauhaus-Pattern-Generator",
   },
   {
-    id: 13,
+    id: 14,
     title: '"Synthetic Visions: When AI Drives Creativity"',
     content:
       "No Sunday project this week—I was busy hosting an open lecture and workshop at Karlstad University! The event focused on AI's role in creativity, exploring whether it amplifies human ingenuity or risks replacing it. We discussed AI's creative potential and limitations, reflecting on its impact on human creativity. Participants also learned coding basics and how to craft AI prompts, culminating in unique projects where AI made the creative decisions.",
@@ -125,7 +125,7 @@ const posts = [
   
   },
   {
-    id: 13,
+    id: 15,
     title: '"Are you OK?"',
     content:
       "This week a smaller build that plays with a classic element of the web: the checkbox. The functionality is powered by JavaScript, which dynamically generates the grid of checkboxes and listens for changes. When any checkbox is toggled, the script checks if all boxes are selected. If so, it triggers the display of the hidden message",
