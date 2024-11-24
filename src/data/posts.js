@@ -124,6 +124,16 @@ const posts = [
     image: "/img/workshop.png",
   
   },
+  {
+    id: 13,
+    title: '"Are you OK?"',
+    content:
+      "This week a smaller build that plays with a classic element of the web: the checkbox. The functionality is powered by JavaScript, which dynamically generates the grid of checkboxes and listens for changes. When any checkbox is toggled, the script checks if all boxes are selected. If so, it triggers the display of the hidden message",
+    image: "/img/checkbox.png",
+    liveLink: "https://ayocb.netlify.app/",
+    codeLink: "https://github.com/Wallenborg/checkbox",
+  
+  },
 ];
 
 export default posts;
