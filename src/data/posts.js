@@ -114,7 +114,8 @@ const posts = [
       "This application generates unique, algorithmically derived patterns inspired by Bauhaus principles. Each shape is dynamically produced through code, resulting in compositions that are both precise and unpredictable. Once initiated, a new pattern appears every 4 seconds.",
     image: "/img/thebau.png",
     liveLink: "https://gbpg.netlify.app/",
-    codeLink: "https://github.com/Wallenborg/Generative-Bauhaus-Pattern-Generator",
+    codeLink:
+      "https://github.com/Wallenborg/Generative-Bauhaus-Pattern-Generator",
   },
   {
     id: 14,
@@ -122,7 +123,6 @@ const posts = [
     content:
       "No Sunday project this week—I was busy hosting an open lecture and workshop at Karlstad University! The event focused on AI's role in creativity, exploring whether it amplifies human ingenuity or risks replacing it. We discussed AI's creative potential and limitations, reflecting on its impact on human creativity. Participants also learned coding basics and how to craft AI prompts, culminating in unique projects where AI made the creative decisions.",
     image: "/img/workshop.png",
-  
   },
   {
     id: 15,
@@ -132,7 +132,15 @@ const posts = [
     image: "/img/checkbox.png",
     liveLink: "https://ayocb.netlify.app/",
     codeLink: "https://github.com/Wallenborg/checkbox",
-  
+  },
+  {
+    id: 16,
+    title: '"Ink Type"',
+    content:
+      "This project draws inspiration from Esnore, a graffiti artist known for his flowing, abstract tags that bleed outward, creating dynamic and organic visual forms. The Ink Type brings this concept to life digitally, transforming typed text into  ink-like blobs. Built with p5.js, the code dynamically renders each character as a unique blob with randomized distortion, simulating the bleeding effect. The canvas updates in real-time as users type, delete, or modify text.",
+    image: "/img/theinktype.png",
+    liveLink: "https://inktype.netlify.app/",
+    codeLink: "https://github.com/Wallenborg/ink-font",
   },
 ];
 
