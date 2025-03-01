@@ -142,6 +142,15 @@ const posts = [
     liveLink: "https://inktype.netlify.app/",
     codeLink: "https://github.com/Wallenborg/ink-font",
   },
+  {
+    id: 17,
+    title: '"watch me as I go"',
+    content:
+      "This code creates an HTML page with a full-screen canvas and uses JavaScript to animate a line. The line starts at the center and moves in a random direction. When the line reaches the edge of the canvas, it stops exactly at the border, selects a new random direction, and continues drawing. Over time, the entire screen becomes filled with the drawn line",
+    image: "/img/wmaig.png",
+    liveLink: "https://wmaig.netlify.app/",
+    codeLink: "https://github.com/Wallenborg/wmaig",
+  },
 ];
 
 export default posts;
