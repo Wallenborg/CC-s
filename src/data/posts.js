@@ -151,6 +151,15 @@ const posts = [
     liveLink: "https://wmaig.netlify.app/",
     codeLink: "https://github.com/Wallenborg/wmaig",
   },
+  {
+    id: 18,
+    title: '"Landscape Painting"',
+    content:
+      "This code builds an HTML page with a full-screen layout that dynamically displays a landscape-inspired description. JavaScript is used to randomly select a description from a long list and update the display every ten seconds. This project it is perhaps more conceptual than creative code.",
+    image: "/img/lp.png",
+    liveLink: "https://landscape-painting.netlify.app/",
+    codeLink: "https://github.com/Wallenborg/Landscape",
+  },
 ];
 
 export default posts;
